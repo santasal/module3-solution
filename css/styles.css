@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+#header-nav button, .navbar-toggle span {
+  border: 1px solid black;
+}
+
+#header-nav {
+  background-color: #e2e2e2;
+}
+
+.navbar-brand {
+  margin: 15px 0;
+  padding-left: 0;
+}
+
+.navbar-brand a {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+
+#header-nav button {
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+#nav-list li {
+  text-align: center;
+}
+
+#firstListItem {
+  background-color:#a28089;
+  font-size: 1.4em;
+  padding: 5px;
+}
+
+#firstListItem:hover {
+  background-color:#295561;
+}
+
+#firstListItem a {
+  color: #000;
+}
+
+#firstListItem a:hover {
+  color: #fff;
+}
+
+#secondListItem {
+  background-color:#c89666;
+  font-size: 1.4em;
+  padding: 5px;
+}
+
+#secondListItem:hover {
+  background-color:#295561;
+}
+
+#secondListItem a {
+  color: #000;
+}
+
+#secondListItem a:hover {
+  color: #fff;
+}
+
+#thirdListItem {
+  background-color:#4c808f;
+  font-size: 1.4em;
+  padding: 5px;
+}
+
+#thirdListItem:hover {
+  background-color:#295561;
+}
+
+#thirdListItem a {
+  color: #000;
+}
+
+#thirdListItem a:hover {
+  color: #fff;
+}
+
+#main-content h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0 20px;
+}
+
+#chickenSection {
+  background-color:#a28089;
+  padding: 10px 15px;
+}
+
+#chickenSection p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#beefSection {
+  background-color:#c89666;
+  padding: 10px 15px;
+}
+
+#beefSection p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#sushiSection {
+  background-color:#3b6d7a;
+  padding: 10px 15px;
+}
+
+#sushiSection p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+@media(max-width: 768px) {
+  #main-content {
+    margin: 0 30px;
+  }
+  .navbar-brand {
+    padding-left: 30px;
+  }
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand a {
+  font-family: Gill Sans Extrabold, sans-serif;
+  color: #295561;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  vertical-align: middle;
+}
